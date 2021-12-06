@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Pepino</RootNamespace>
+    <Nullable>enable</Nullable>
+    <Company>Diware</Company>
+    <Authors>Dmitrij Lytkin</Authors>
+    <Product>Pepino</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Diware.StdLib" Version="1.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pepino\Pepino.csproj" />
+  </ItemGroup>
+
+</Project>
